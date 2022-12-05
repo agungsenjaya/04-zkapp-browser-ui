@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(45deg,rgba(215,123,209,1) 0%,rgba(138,87,222,1) 100%);
+	background-color: #d77bd1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light ) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+  }
+}
+
+@media (max-width: 480px) {
+
+}
