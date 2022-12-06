@@ -197,7 +197,7 @@ export default function App() {
    <main className={styles.main}>
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto my-auto">
-	 <img className='text-center mx-auto' src="/header.jpg" width="50%" alt="" />
+	 <img className='text-center mx-auto' src="/04-zkapp-browser-ui/header.jpg" width="50%" alt="" />
     <div className="p-5 text-center">
     	<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mina Protocol</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions blockchain protocol.</p>
@@ -246,6 +246,7 @@ export default function App() {
 </linearGradient>
 </defs>
 </svg> */}
+  <img className='' src="/04-zkapp-browser-ui/auro.svg" width="20" alt="" />
 
                             <span className="flex-1 ml-3 whitespace-nowrap">Auro Wallet</span>
                             <span className="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400">Popular</span>
